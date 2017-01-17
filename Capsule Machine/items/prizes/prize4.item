@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize4",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize4icon.png",
+  "description" : "Set #1 - Trains are pretty cool.",
+  "shortdescription" : "Toy Train",
+  "largeImage" : "prize4.png",
+  "tooltipKind" : "tool"
+  
+}

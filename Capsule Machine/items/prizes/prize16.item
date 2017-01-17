@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize16",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize16icon.png",
+  "description" : "Set #1 - Ironically, this isn't an easter egg - it's actually part of the set.",
+  "shortdescription" : "Easter Egg",
+  "largeImage" : "prize16.png",
+  "tooltipKind" : "tool"
+  
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize14",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize14icon.png",
+  "description" : "Set #1 - A holofoil card that seems to vaguely represent a dragon.",
+  "shortdescription" : "Rare Card",
+  "largeImage" : "prize14.png",
+  "tooltipKind" : "tool"
+  
+}

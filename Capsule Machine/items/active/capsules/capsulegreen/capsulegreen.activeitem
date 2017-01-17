@@ -1,0 +1,24 @@
+{
+  "itemName" : "capsulegreen",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "PrizeReward",
+  "description" : "An orb filled with dreams, hope, and a toy.",
+  "shortdescription" : "Capsule",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "capsulegreen.png",
+  "animation" : "capsulegreen.animation",
+  "animationCustom" : {},
+  "scripts" : ["capsulegreen.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "capsulegreen",
+    "level" : 1
+  }
+}

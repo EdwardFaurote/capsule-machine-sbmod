@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize6",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize6icon.png",
+  "description" : "Set #1 - They say it comes from a world where leaves are an form of currency.",
+  "shortdescription" : "Magic Leaf",
+  "largeImage" : "prize6.png",
+  "tooltipKind" : "tool"
+  
+}

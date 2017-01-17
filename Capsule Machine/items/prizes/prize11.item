@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize11",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize11icon.png",
+  "description" : "Set #1 - Technically made from dinosaurs.",
+  "shortdescription" : "Plastic Fossil",
+  "largeImage" : "prize11.png",
+  "tooltipKind" : "tool"
+  
+}

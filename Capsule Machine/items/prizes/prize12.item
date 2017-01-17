@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize12",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize12icon.png",
+  "description" : "Set #1 - A floating sphere supported by nothing but the love of those around it.",
+  "shortdescription" : "Rainbow Bubble",
+  "largeImage" : "prize12.png",
+  "tooltipKind" : "tool"
+  
+}

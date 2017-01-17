@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize15",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize15icon.png",
+  "description" : "Set #1 - The noise it makes is more entertaining than it has any right to be.",
+  "shortdescription" : "Squeaky Mushroom",
+  "largeImage" : "prize15.png",
+  "tooltipKind" : "tool"
+  
+}

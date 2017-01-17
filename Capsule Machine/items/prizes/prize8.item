@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize8",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize8icon.png",
+  "description" : "Set #1 - +100 health points! If only.",
+  "shortdescription" : "Checkered Heart Badge",
+  "largeImage" : "prize8.png",
+  "tooltipKind" : "tool"
+  
+}

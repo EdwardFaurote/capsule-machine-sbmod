@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize9",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize9icon.png",
+  "description" : "Set #1 - It's actually a flowering watermelon. How quaint.",
+  "shortdescription" : "Harmless Cactus",
+  "largeImage" : "prize9.png",
+  "tooltipKind" : "tool"
+  
+}

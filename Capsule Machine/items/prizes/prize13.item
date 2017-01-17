@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize13",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize13icon.png",
+  "description" : "Set #1 - For the smallest of thirsts.",
+  "shortdescription" : "Mini Soda",
+  "largeImage" : "prize13.png",
+  "tooltipKind" : "tool"
+  
+}

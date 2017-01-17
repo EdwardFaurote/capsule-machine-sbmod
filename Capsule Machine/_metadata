@@ -1,0 +1,9 @@
+{
+  "author" : "Zavender",
+  "description" : "A mod that adds a simple Capsule Machine, spend pixels to get prizes!\n\nMy first and most simple mod, made in tandem with Darkohexar, still technically WIp as we plan on adding a few minor additions to the mod (Possibly another machine, stands for prizes, etc).\n\nAll art credited to DarkoHexar, programming done by me, Zavender.",
+  "friendlyName" : "The Capsule Machine Mod",
+  "link" : "steam://url/CommunityFilePage/748229073",
+  "name" : "The Capsule Machine",
+  "steamContentId" : "748229073",
+  "version" : "1.0"
+}

@@ -1,0 +1,40 @@
+{
+  "objectName" : "capsuletoybox",
+  "colonyTags" : ["storage"],
+  "rarity" : "Uncommon",
+  "objectType" : "container",
+  "tooltipKind" : "container",
+
+  "category" : "storage",
+  "price" : 100,
+  "description" : "What a convenient box - just enough space for a full set of toys!",
+  "shortdescription" : "Capsule Toy Box",
+  "race" : "generic",
+  "health" : 1.5,
+
+  "apexDescription" : "An odd chest, for collection purposes.",
+  "avianDescription" : "For a toy box, it sure looks like a toy.",
+  "floranDescription" : "A pink box? Maybe edible, not sssure.",
+  "glitchDescription" : "Curious. Who decided on this color scheme?",
+  "humanDescription" : " I'm pretty sure I've seen this exact thing in a magazine once.",
+  "hylotlDescription" : "This box seems to be just large enough for one whole set.",
+  "novakidDescription" : "A pink plastic case? Now we're talkin'!",
+
+  "inventoryIcon" : "capsuletoyboxicon.png",
+  "orientations" : [
+    {
+      "dualImage" : "capsuletoybox.png:<color>.<key>",
+      "imagePosition" : [-8, 0],
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ],
+
+  "openSounds" : [ "/sfx/objects/chest_small_open.ogg" ],
+  "closeSounds" : [ "/sfx/objects/chest_small_close.ogg" ],
+  "slotCount" : 16,
+  "uiConfig" : "/interface/chests/chest<slots>.config",
+  "frameCooldown" : 5,
+  "autoCloseCooldown" : 3600
+}
