@@ -1,0 +1,10 @@
+{
+  "itemName" : "prize1",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize1icon.png",
+  "description" : "Set #1 - Figure of an almighty hero. A true symbol of peace.",
+  "shortdescription" : "Hero Figurine",
+  "largeImage" : "prize1.png",
+  "tooltipKind" : "tool"
+}

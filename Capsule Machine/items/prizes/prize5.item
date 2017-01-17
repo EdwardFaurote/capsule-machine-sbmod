@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize5",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize5icon.png",
+  "description" : "Set #1 - A memorial for all the victims that succumbed to milk glasses.",
+  "shortdescription" : "Cookie Ring",
+  "largeImage" : "prize5.png",
+  "tooltipKind" : "tool"
+  
+}

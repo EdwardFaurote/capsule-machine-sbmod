@@ -1,0 +1,24 @@
+{
+  "itemName" : "capsulepink",
+  "price" : 0,
+  "level" : 1,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "category" : "PrizeReward",
+  "description" : "An orb filled with dreams, hope, and a toy.",
+  "shortdescription" : "Capsule",
+  "twoHanded" : true,
+
+  "inventoryIcon" : "capsulepink.png",
+  "animation" : "capsulepink.animation",
+  "animationCustom" : {},
+  "scripts" : ["capsulepink.lua"],
+
+  "fireTime" : 2.0,
+  "fireOffset" : [1.0, 0.0],
+
+  "treasure" : {
+    "pool" : "capsulepink",
+    "level" : 1
+  }
+}

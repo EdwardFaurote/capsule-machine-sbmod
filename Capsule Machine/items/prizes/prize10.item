@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize10",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize10icon.png",
+  "description" : "Set #1 - Every side is the same. Useful for those who dislike the RNG.",
+  "shortdescription" : "Unique Die",
+  "largeImage" : "prize10.png",
+  "tooltipKind" : "tool"
+  
+}

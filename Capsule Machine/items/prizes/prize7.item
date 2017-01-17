@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize7",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize7icon.png",
+  "description" : "Set #1 - Careful with the ceiling.",
+  "shortdescription" : "Sticky Hand",
+  "largeImage" : "prize7.png",
+  "tooltipKind" : "tool"
+  
+}

@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize3",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize3icon.png",
+  "description" : "Set #1 - A machine that defined a generation.",
+  "shortdescription" : "Portable Game Console",
+  "largeImage" : "prize3.png",
+  "tooltipKind" : "tool"
+  
+}

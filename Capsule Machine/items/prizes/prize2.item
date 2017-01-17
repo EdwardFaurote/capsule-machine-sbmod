@@ -1,0 +1,11 @@
+{
+  "itemName" : "prize2",
+  "rarity" : "Rare",
+  "category" : "Prize",
+  "inventoryIcon" : "prize2icon.png",
+  "description" : "Set #1 - It will never thaw, so you can forever cherish the holiday season.",
+  "shortdescription" : "Frozen Candy Cane",
+  "largeImage" : "prize2.png",
+  "tooltipKind" : "tool"
+  
+}
