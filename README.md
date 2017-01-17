@@ -6,3 +6,5 @@ this mod adds an object that dispenses loot containers, containing game loot and
 
 Using a modified scripted interface, the machine itself outputs a random colored capsule, each one of which
 has a specific prize double weighted, a chance at all other prizes, and then a small chance at in-game upgrades.
+
+Small PSA: Starbound has specifically been modified to accept // comments in json files. 
