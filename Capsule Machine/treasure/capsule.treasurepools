@@ -1,0 +1,155 @@
+  // ==============================================================================================
+  //                                     CAPSULE TREASURE POOL SUBS
+  // ==============================================================================================
+{
+
+"capsuleprize" : [
+    [0, {
+	  	"poolRounds" : 1,
+		"allowDuplication" : false,
+		
+      "pool" : [
+        {"weight" : 1.0, "item" : ["prize1", 1]},
+        {"weight" : 1.0, "item" : ["prize2", 1]},
+		{"weight" : 1.0, "item" : ["prize3", 1]},
+        {"weight" : 1.0, "item" : ["prize4", 1]},
+        {"weight" : 1.0, "item" : ["prize5", 1]},
+        {"weight" : 1.0, "item" : ["prize6", 1]},
+        {"weight" : 1.0, "item" : ["prize7", 1]},
+        {"weight" : 1.0, "item" : ["prize8", 1]},
+        {"weight" : 1.0, "item" : ["prize9", 1]},
+        {"weight" : 1.0, "item" : ["prize10", 1]},
+        {"weight" : 1.0, "item" : ["prize11", 1]},
+        {"weight" : 1.0, "item" : ["prize12", 1]},
+        {"weight" : 1.0, "item" : ["prize13", 1]},
+        {"weight" : 1.0, "item" : ["prize14", 1]},
+        {"weight" : 1.0, "item" : ["prize15", 1]},
+        {"weight" : 1.0, "item" : ["prize16", 1]}
+      ]
+    }]
+  ],
+  
+"capsuleextra" : [
+    [0, {
+	   	"poolRounds" : 1,
+		"allowDuplication" : false,
+		
+      "pool" : [
+        {"weight" : 0.7, "item" : ["manipulatormodule", 1]},
+        {"weight" : 0.3, "item" : ["techcard", 1]},
+		{"weight" : 0.1, "item" : ["upgrademodule", 1]}
+	   ]
+	}]
+],
+  // ==============================================================================================
+  //                                     CAPSULE TREASURE POOL MAINS
+  // ==============================================================================================
+
+  "capsuleblack" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.26, "pool" : "capsuleprize"},
+        {"weight" : 0.26, "item" : ["prize11", 1]},
+        {"weight" : 0.4, "pool" : "capsuleextra"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+
+  "capsuleblue" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.26, "pool" : "capsuleprize"},
+        {"weight" : 0.26, "item" : ["prize7", 1]},
+        {"weight" : 0.4, "pool" : "capsuleextra"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+
+  "capsulegreen" : [
+    [0, {
+      "pool" : [
+        {"weight" : 0.26, "pool" : "capsuleprize"},
+        {"weight" : 0.26, "item" : ["prize13", 1]},
+        {"weight" : 0.4, "pool" : "capsuleextra"}
+      ],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+    }]
+  ],
+
+  "capsuleorange" : [
+	[0,{
+	"pool" : [
+		{"weight" : 0.26, "pool" : "capsuleprize"},
+        {"weight" : 0.26, "item" : ["prize3", 1]},
+        {"weight" : 0.4, "pool" : "capsuleextra"}
+	],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+	}]
+  ],
+  
+  "capsulepink" : [
+	[0,{
+	"pool" : [
+		{"weight" : 0.26, "pool" : "capsuleprize"},
+        {"weight" : 0.26, "item" : ["prize8", 1]},
+        {"weight" : 0.4, "pool" : "capsuleextra"}
+	],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+	}]
+  ],
+  
+  "capsulepurple" : [
+	[0,{
+	"pool" : [
+		{"weight" : 0.26, "pool" : "capsuleprize"},
+        {"weight" : 0.26, "item" : ["prize5", 1]},
+        {"weight" : 0.4, "pool" : "capsuleextra"}
+	],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+	}]
+  ],
+  
+  "capsulered" : [
+	[0,{
+	"pool" : [
+		{"weight" : 0.26, "pool" : "capsuleprize"},
+        {"weight" : 0.26, "item" : ["prize15", 1]},
+        {"weight" : 0.4, "pool" : "capsuleextra"}
+	],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+	}]
+  ],
+  
+  "capsuleteal" : [
+	[0,{
+	"pool" : [
+		{"weight" : 0.26, "pool" : "capsuleprize"},
+        {"weight" : 0.26, "item" : ["prize4", 1]},
+        {"weight" : 0.4, "pool" : "capsuleextra"}
+	],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+	}]
+  ],
+  
+  "capsuleyellow" : [
+	[0,{
+	"pool" : [
+		{"weight" : 0.26, "pool" : "capsuleprize"},
+        {"weight" : 0.26, "item" : ["prize1", 1]},
+        {"weight" : 0.4, "pool" : "capsuleextra"}
+	],
+      "poolRounds" : 1,
+      "allowDuplication" : false
+	}]
+  ]
+}
