@@ -1,0 +1,63 @@
+{
+  "objectName" : "capsulemachine",
+  "colonyTags" : ["crafting"],
+  "rarity" : "Legendary",
+  "interactAction" : "ScriptPane",
+  "interactData" : "/interface/scripted/capsulemachine/capsulemachinegui.config",
+  
+  "price" : 2000,
+  "printable" : false,
+  "lightColor" : [175, 238, 238],
+  
+  "flickerPeriod" : 0.3,
+  "flickerMinIntensity" : 0.70,
+  "flickerMaxIntensity" : 0.75,
+  "flickerPeriodVariance" : 0.3,
+  "flickerIntensityVariance" : 0.0,
+
+  "description" : "This machine dispenses toy capsules, for a fee. Collect them all!",
+  "shortdescription" : "^cyan;Capsule Machine^white;",
+  "race" : "generic",
+  "category" : "crafting",
+
+  "apexDescription" : "Entertainment mixed with random chance, it seems.",
+  "avianDescription" : "Capsule machines... Are these divine creations, or demonic pixel voids?",
+  "floranDescription" : "Floran lovesss ssmall gift in sssmall circle prison.",
+  "glitchDescription" : "Entertained. Willing to spend many pixels on potential rewards from this beauty.",
+  "humanDescription" : "Sweet, I haven't seen these around since my childhood!",
+  "hylotlDescription" : "The Hylotl are fond of these capsules, representing our inner quest for satisfaction.",
+  "novakidDescription" : "A capsule machine? What a beauty..",
+
+  "inventoryIcon" : "capsulemachineicon.png",
+  "orientations" : [
+    {
+      "imageLayers" : [ { "image" : "capsulemachine.png:<color>.<frame>", "fullbright" : true }, { "image" : "capsulemachinelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 6,
+      "animationCycle" : 0.6,
+      
+      "lightPosition" : [0,1],
+      
+      "direction" : "left",
+      "flipImages" : true,
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    },
+    {
+      "imageLayers" : [ { "image" : "capsulemachine.png:<color>.<frame>", "fullbright" : true }, { "image" : "capsulemachinelit.png:<color>.<frame>" } ],
+
+      "imagePosition" : [-8, 0],
+      "frames" : 6,
+      "animationCycle" : 0.6,
+      
+      "lightPosition" : [0,1],
+      
+      "direction" : "right",
+
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+    }
+  ]
+}
