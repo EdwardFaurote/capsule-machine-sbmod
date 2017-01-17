@@ -12,27 +12,43 @@ function update(dt)
   widget.setButtonEnabled("activateButton", current >= self.required)
 end
 
+
+--activate uses a binary sort tree. Should be much quicker (not necessary, but I enjoy doing O(log n) stuff)
 function activate()
-  if player.consumeItem({name = self.activateItem, count = self.required}) then
-    local capType = math.random(0,8)
-	if capType <= 0 then
-		player.giveItem({item = "capsuleblack", count = 1})
-	elseif 	capType <= 1 then
-		player.giveItem({item = "capsuleblue", count = 1})
-	elseif 	capType <= 5 then
-		player.giveItem({item = "capsulegreen", count = 1})
-	elseif 	capType <= 3 then
-		player.giveItem({item = "capsuleorange", count = 1})
-	elseif 	capType <= 4 then
-		player.giveItem({item = "capsulepink", count = 1})
-	elseif 	capType <= 5 then
-		player.giveItem({item = "capsulepurple", count = 1})
-	elseif 	capType <= 6 then
-		player.giveItem({item = "capsulered", count = 1})
-	elseif 	capType <= 7 then
-		player.giveItem({item = "capsuleteal", count = 1})
-	elseif 	capType <= 8 then
-		player.giveItem({item = "capsuleyellow", count = 1})
+	if player.consumeItem({name = self.activateItem, count = self.required}) then
+		local capType = math.random(0,8)
+		
+		if capType = 4
+			player.giveItem({item = "capsulepink", count = 1})
+		elseif capType < 4
+			if capType < 2
+				if capType = 0
+					player.giveItem({item = "capsuleblack", count = 1})
+				else
+					player.giveItem({item = "capsuleblue", count = 1})
+				end
+			else
+				if capType = 3
+					player.giveItem({item = "capsulegreen", count = 1})
+				else
+					player.giveItem({item = "capsuleorange", count = 1})
+				end
+			end
+		else
+			if capType < 7
+				if capType = 5
+					player.giveItem({item = "capsulepurple", count = 1})
+				else
+					player.giveItem({item = "capsulered", count = 1})
+				end
+			else
+				if capType = 7
+					player.giveItem({item = "capsuleteal", count = 1})
+				else
+					player.giveItem({item = "capsuleyellow", count = 1})
+				end
+			end
+		end
+
 	end
-  end
 end

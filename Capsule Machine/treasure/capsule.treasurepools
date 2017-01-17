@@ -3,6 +3,8 @@
   // ==============================================================================================
 {
 
+//capsuleprize is a balanced table of the prizes
+
 "capsuleprize" : [
     [0, {
 	  	"poolRounds" : 1,
@@ -29,6 +31,8 @@
     }]
   ],
   
+//capsuleextra is a small chance pool for various vanilla items
+  
 "capsuleextra" : [
     [0, {
 	   	"poolRounds" : 1,
@@ -45,6 +49,8 @@
   //                                     CAPSULE TREASURE POOL MAINS
   // ==============================================================================================
 
+//Each capsule has a chance at every prize (capsuleprize), their specific double-eight prize, and the extra pool
+  
   "capsuleblack" : [
     [0, {
       "pool" : [
