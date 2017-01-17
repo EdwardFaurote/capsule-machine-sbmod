@@ -13,7 +13,7 @@ function update(dt)
 end
 
 
-//activate uses a binary sort tree. Should be much quicker (not necessary, but I enjoy doing O(log n) stuff)
+--activate uses a binary sort tree. Should be much quicker (not necessary, but I enjoy doing O(log n) stuff)
 function activate()
 	if player.consumeItem({name = self.activateItem, count = self.required}) then
 		local capType = math.random(0,8)
